@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1542055403 source:c:\users\seasi\desktop\purvo pisane\asd\a\main.c
+	<windows.h>
+	<gl/gl.h>
+

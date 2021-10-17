@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1554219375 source:c:\users\seasi\desktop\purvo pisane\banking\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

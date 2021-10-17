@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540373880 source:c:\users\seasi\desktop\purvo pisane\funkcii\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1558988715 source:c:\users\seasi\desktop\purvo pisane\kontrlno2017\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+

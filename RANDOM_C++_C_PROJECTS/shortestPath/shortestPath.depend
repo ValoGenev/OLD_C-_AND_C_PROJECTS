@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1552928478 source:c:\users\seasi\desktop\purvo pisane\shortestpath\main.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<stdbool.h>
+

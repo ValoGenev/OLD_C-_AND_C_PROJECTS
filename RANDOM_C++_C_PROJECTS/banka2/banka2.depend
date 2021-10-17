@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1554219975 source:c:\users\seasi\desktop\purvo pisane\banka2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

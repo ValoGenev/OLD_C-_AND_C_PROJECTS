@@ -1,0 +1,12 @@
+500150
+kondenzator
+300
+om
+bulgaria
+150
+500151
+rezistor
+500
+om
+bulgaria
+250

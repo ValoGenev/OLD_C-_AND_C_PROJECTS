@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1552351098 source:c:\users\seasi\desktop\purvo pisane\smart calculator\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<math.h>
+

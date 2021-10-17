@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1550080451 source:c:\users\seasi\desktop\purvo pisane\powwe\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

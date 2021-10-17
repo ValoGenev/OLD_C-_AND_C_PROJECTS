@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1558020831 source:c:\users\seasi\desktop\purvo pisane\goshootpochivka2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+

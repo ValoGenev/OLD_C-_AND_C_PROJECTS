@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540372621 source:c:\users\seasi\desktop\purvo pisane\abcd\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

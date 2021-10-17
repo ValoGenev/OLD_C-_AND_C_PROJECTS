@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540374356 source:c:\users\seasi\desktop\purvo pisane\asda\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1541162647 source:e:\codeblocks\21\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<unistd.h>
+
+1543332806 source:c:\users\seasi\desktop\21\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<unistd.h>
+

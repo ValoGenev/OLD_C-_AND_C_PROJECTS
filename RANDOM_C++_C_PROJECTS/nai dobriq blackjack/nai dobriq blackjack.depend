@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540740971 source:c:\users\seasi\desktop\purvo pisane\nai dobriq blackjack\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

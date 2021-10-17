@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1550426580 source:c:\users\seasi\desktop\purvo pisane\phonebook\main.c
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<stdlib.h>
+	<windows.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1554031967 source:c:\users\seasi\desktop\purvo pisane\fitness\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

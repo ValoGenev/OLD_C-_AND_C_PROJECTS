@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1540064894 source:c:\users\seasi\desktop\purvo pisane\purviq weeeeeee\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1540225070 source:c:\users\seasi\desktop\purvo pisane\srand\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

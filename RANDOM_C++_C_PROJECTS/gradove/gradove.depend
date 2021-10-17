@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1553427379 source:c:\users\seasi\desktop\purvo pisane\gradove\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1552350946 source:c:\users\seasi\desktop\purvo pisane\telefoni\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

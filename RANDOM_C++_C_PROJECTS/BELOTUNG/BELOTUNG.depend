@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1554748667 source:c:\users\seasi\desktop\purvo pisane\belotung\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<stdbool.h>
+

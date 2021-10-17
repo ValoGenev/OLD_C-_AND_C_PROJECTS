@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1554655833 source:c:\users\seasi\desktop\purvo pisane\rabotiwemamicata ti\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<stdbool.h>
+

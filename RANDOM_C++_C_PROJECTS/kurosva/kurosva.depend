@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1622454046 source:c:\users\seasi\desktop\purvo pisane\kurosva\main.cpp
+	<iostream>
+	<list>
+	<vector>
+	<sstream>
+	<fstream>
+	<conio.h>
+	<unistd.h>
+	<cstring>
+

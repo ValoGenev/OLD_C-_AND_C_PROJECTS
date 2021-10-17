@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1540145109 source:c:\users\seasi\desktop\purvo pisane\string\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1540141509 source:c:\users\seasi\desktop\purvo pisane\is upper\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+

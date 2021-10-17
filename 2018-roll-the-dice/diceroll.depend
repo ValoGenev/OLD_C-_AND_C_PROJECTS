@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1539434422 source:c:\users\seasi\desktop\purvo pisane\diceroll\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

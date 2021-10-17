@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1553637164 source:c:\users\seasi\desktop\purvo pisane\atoi\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

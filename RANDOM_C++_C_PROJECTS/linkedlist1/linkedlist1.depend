@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1557164092 source:c:\users\seasi\desktop\purvo pisane\linkedlist1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

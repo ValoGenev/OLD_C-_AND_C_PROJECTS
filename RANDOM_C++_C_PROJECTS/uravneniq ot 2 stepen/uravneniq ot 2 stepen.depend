@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1550064378 source:c:\users\seasi\desktop\purvo pisane\uravneniq ot 2 stepen\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

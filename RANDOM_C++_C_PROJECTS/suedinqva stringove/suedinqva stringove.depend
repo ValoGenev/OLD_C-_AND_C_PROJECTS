@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540227231 source:c:\users\seasi\desktop\purvo pisane\suedinqva stringove\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

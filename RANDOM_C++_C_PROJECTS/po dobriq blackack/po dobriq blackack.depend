@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1554489052 source:c:\users\seasi\desktop\purvo pisane\po dobriq blackack\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

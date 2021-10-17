@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1545214403 source:c:\users\seasi\desktop\purvo pisane\podgotovkazakontrlno\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,264 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <stdbool.h>
+
+
+int main()
+{
+
+ cards();
+
+
+  return 0;
+}
+
+
+void cards()
+{
+    int i =0,k=0,count=0;
+    time_t t;
+	int randomNumbers[24];
+	srand(time(0));
+	char cardsShuffled[24][20];
+    char cards[24][20] =
+                {
+
+                 "Queen of Diamonds",
+                 "Queen of Clubs" ,
+                 "Queen of Spades",
+                 "Queen of Hearts",
+
+                 "King of Diamonds",
+                 "King of Clubs" ,
+                 "King of Spades",
+                 "King of Hearts",
+
+                 "Jack of Diamonds",
+                 "Jack of Clubs" ,
+                 "Jack of Spades",
+                 "Jack of Hearts",
+
+                 "10 of Diamonds",
+                 "10 of Clubs" ,
+                 "10 of Spades",
+                 "10 of Hearts",
+
+                 "Ace of Diamonds",
+                 "Ace of Clubs" ,
+                 "Ace of Spades",
+                 "Ace of Hearts",
+
+                 "9 of Diamonds",
+                 "9 of Clubs" ,
+                 "9 of Spades",
+                 "9 of Hearts",
+                };
+
+     while(count <24)
+
+    {
+		int randNum =rand() % 24;
+		bool found =false;
+		for (i=0; i < 24; i++) {
+			if(randomNumbers[i] ==randNum)
+            {
+				found =true;
+				break;
+			}
+		}
+
+        if(!found)
+         {
+			randomNumbers[k] =randNum;
+			count++;
+			k++;
+		 }
+
+	}
+
+	deck(randomNumbers,cards);
+
+	}
+
+
+
+
+	void deck (int randomNumbers[24], char cards[24][20])
+{
+    int choice1=1;
+    int choice2=1;
+    printf ("Player's cards: \t\t\t Computers cards: \n\n");
+    for(int i=0;i<6;)
+    {
+        printf ("[%d]%s\t\t\t\t[%d]%s\n", choice1,cards[randomNumbers[i]],choice2,cards[randomNumbers[i+6]] );
+
+        i++;
+        choice1++;
+        choice2++;
+    }
+
+    printf ("\n\n\t\t      KOZ: %s\n\n\n\n\n", cards[randomNumbers[13]]);
+
+
+
+    game(randomNumbers,cards,cards[randomNumbers[13]]);
+
+
+}
+void game(int randomNumbers[24], char cards[24][20], char koz[])
+
+{
+    int player=2;
+    int choice;
+    int firstPlayerPoints;
+    int secondPlayerPoints;
+    char firstPlayerColor[10];
+    char secondPlayerColor[10];
+    int countWhileLoop=0;
+    int size;
+
+
+    size=strlen(koz) - 2;
+
+
+
+        if(koz[size] == 'b')
+        strcpy(koz,"Clubs");
+
+        if(koz[size] == 't')
+        strcpy(koz,"Heart");
+
+        if(koz[size] == 'd')
+        strcpy(koz,"Diamonds");
+
+        if(koz[size] == 'e')
+        strcpy(koz,"Spades");
+
+        printf ("%s", koz);
+
+
+
+
+    while (countWhileLoop!=2)
+    {
+
+    firstPlayerPoints,secondPlayerPoints=0;
+    player=(player % 2) ? 1 : 2;
+    printf ("\nPlayer %d enter option: ", player);
+    scanf ("%d", &choice);
+    if(player==2)
+    {
+
+    choice+=6;
+
+    printf ("%s\n", cards[randomNumbers[choice-1]]);
+
+    size=strlen(cards[randomNumbers[choice-1]]) - 2;
+
+
+
+        if(cards[randomNumbers[choice-1]][0]== '9')
+        secondPlayerPoints=0;
+
+        if(cards[randomNumbers[choice-1]][0]== 'J')
+        secondPlayerPoints=2;
+
+        if(cards[randomNumbers[choice-1]][0]== 'Q')
+        secondPlayerPoints=3;
+
+        if(cards[randomNumbers[choice-1]][0]== 'K')
+        secondPlayerPoints=4;
+
+        if(cards[randomNumbers[choice-1]][0]== '1')
+        secondPlayerPoints=10;
+
+        if(cards[randomNumbers[choice-1]][0]== 'A')
+        secondPlayerPoints=11;
+
+
+
+        if(cards[randomNumbers[choice-1]][size] == 'b')
+        strcpy(secondPlayerColor,"Clubs");
+
+        if(cards[randomNumbers[choice-1]][size] == 't')
+        strcpy(secondPlayerColor,"Heart");
+
+        if(cards[randomNumbers[choice-1]][size] == 'd')
+        strcpy(secondPlayerColor,"Diamonds");
+
+        if(cards[randomNumbers[choice-1]][size] == 'e')
+        strcpy(secondPlayerColor,"Spades");
+
+
+        printf ("Points: %d\nColor: %s", secondPlayerPoints, secondPlayerColor);
+    }
+
+    else
+    {
+        printf ("%s\n", cards[randomNumbers[choice-1]]);
+
+        size=strlen(cards[randomNumbers[choice-1]]) - 2;
+
+        if(cards[randomNumbers[choice-1]][0]== '9')
+        firstPlayerPoints=0;
+
+        if(cards[randomNumbers[choice-1]][0]== 'J')
+        firstPlayerPoints=2;
+
+        if(cards[randomNumbers[choice-1]][0]== 'Q')
+        firstPlayerPoints=3;
+
+        if(cards[randomNumbers[choice-1]][0]== 'K')
+        firstPlayerPoints=4;
+
+        if(cards[randomNumbers[choice-1]][0]== '1')
+        firstPlayerPoints=10;
+
+        if(cards[randomNumbers[choice-1]][0]== 'A')
+        firstPlayerPoints=11;
+
+
+
+        if(cards[randomNumbers[choice-1]][size] == 'b')
+        strcpy(firstPlayerColor,"Clubs");
+
+        if(cards[randomNumbers[choice-1]][size] == 't')
+        strcpy(firstPlayerColor,"Heart");
+
+        if(cards[randomNumbers[choice-1]][size] == 'd')
+        strcpy(firstPlayerColor,"Diamonds");
+
+        if(cards[randomNumbers[choice-1]][size] == 'e')
+        strcpy(firstPlayerColor,"Spades");
+
+
+        printf ("Points: %d\nColor: %s", firstPlayerPoints, firstPlayerColor);
+    }
+
+    countWhileLoop++;
+    player++;
+
+}
+
+
+    if(player==3)
+    {
+        if (strcmp(firstPlayerColor,secondPlayerColor)!= 0 && strcmp(koz,secondPlayerColor)!=0 ||
+        player==3 && strcmp(firstPlayerColor,secondPlayerColor)== 0 && firstPlayerPoints>secondPlayerPoints)
+        printf ("\nPlayer 1 wins the hand! ");
+        else printf ("\nPlayer 2 wins the hand!");
+    }
+
+
+    if(player==2)
+    {
+        if(strcmp(firstPlayerColor,secondPlayerColor)!= 0 && strcmp(koz,firstPlayerColor)!=0 ||
+        player==2 && strcmp(firstPlayerColor,secondPlayerColor)== 0 && firstPlayerPoints<secondPlayerPoints )
+        printf ("\nPlayer 2 wins the hand! ");
+        else printf ("\nPlayer 2 wins the hand!");
+    }
+
+
+}

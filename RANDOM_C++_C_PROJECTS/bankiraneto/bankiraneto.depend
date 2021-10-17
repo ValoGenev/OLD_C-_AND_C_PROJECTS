@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1550426193 source:c:\users\seasi\desktop\purvo pisane\bankiraneto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+

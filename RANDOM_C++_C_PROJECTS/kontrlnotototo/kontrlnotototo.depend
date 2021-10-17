@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1545157495 source:c:\users\seasi\desktop\purvo pisane\kontrlnotototo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

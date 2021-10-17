@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1551890282 source:c:\users\seasi\desktop\purvo pisane\towndistance\main.c
+	<stdio.h>
+	<stdlib.h>
+
